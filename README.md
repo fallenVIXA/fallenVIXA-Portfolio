@@ -1,2 +1,2 @@
 # fallenVIXA-Portfolio
-My first hosted website with portfolio.
+My first portfolio.
