@@ -10,102 +10,233 @@
 <body>
     <header>
         <nav>
-            <div class="header-container">
-                <h1 class="logo">fallenVIXA</h1>
-                <button class="menu-toggle" aria-label="Toggle Menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
-                <div class="nav-links">
-                    <a href="#home" class="neon-button">HOME</a>
-                    <a href="#about" class="neon-button">ABOUT</a>
-                    <a href="#projects" class="neon-button">PROJECTS</a>
-                    <a href="#skills" class="neon-button">SKILLS</a>
-                    <a href="#contact" class="neon-button">CONTACT</a>
-                </div>
-            </div>
+            <ul>
+                <li><a href="#home"><span>Start</span></a></li>
+                <li><a href="#about"><span>O mnie</span></a></li>
+                <!-- <li><a href="#projects"><span>Projekty</span></a></li> -->
+                <li><a href="#skills"><span>Umiejętności</span></a></li>
+                <li><a href="#contact"><span>Kontakt</span></a></li>
+            </ul>
         </nav>
     </header>
     <main class="data-container">
-        <section id="home"></section>
-        <section id="about"></section>
-        <section id="projects">
-            <h2 class="projects-title">Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3 class="project-title">FiveM Script #1</h3>
-                        <p class="project-desc">FiveM Script #1 Description</p>
-                        <a href="" class="project-button">View Project ⭢</a>
-                    </div>
+        <section id="home">
+            <div class="home-container">
+                <div class="home-header">
+                    <h3>Witaj</h3>
+                    <h1>Jestem Wojtek</h1>
+                    <p class="home-desc">20-latek, który czasami programuje w wolnym czasie...</p>
                 </div>
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3 class="project-title">FiveM Script #2</h3>
-                        <p class="project-desc">FiveM Script #1 Description</p>
-                        <a href="" class="project-button">View Project ⭢</a>
-                    </div>
+                <div class="home-links">
+                    <a href="https://github.com/fallenVIXA"><img src="images/home-github.svg" alt="Github Icon" class="home-icons"></a>
+                    <a href="https://steamcommunity.com/id/fallenvixa"><img src="images/home-steam.png" alt="Steam Icon" class="home-icons"></a>
+                    <a href="#footer"><img src="images/home-links.png" alt="Links Icon" class="home-icons"></a>
+                    <a href="mailto:wojslab@gmail.com"><img src="images/home-email.svg" alt="Email Icon" class="home-icons"></a>
                 </div>
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3 class="project-title">FiveM Script #3</h3>
-                        <p class="project-desc">FiveM Script #1 Description</p>
-                        <a href="" class="project-button">View Project ⭢</a>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-container">
+                <div class="about-header">
+                    <h1>Moja podróż z IT</h1>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="year">                               
+                                <span class="icon3"></span>
+                                <span class="icon2"></span>
+                                <span class="icon1"></span>
+                                <span>2025</span>
+                            </div>
+                            <div class="achievement-title">Ukończyłem technikum na profilu Technik Informatyk.</div>
+                            <div class="achievement-description">Dodatkowo zacząłem tworzyć swój pierwszy serwer FiveM i skrypty ucząc się Lua.</div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Lua</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="year">                                
+                                <span>2024</span>
+                                <span class="icon1"></span>
+                                <span class="icon2"></span>
+                                <span class="icon3"></span>
+                            </div>
+                            <div class="achievement-title">Zacząłem interesować się bardziej webdevem i pisaniem różnych skrypwów</div>
+                            <div class="achievement-description">Także zacząłem się intersować FiveM Develepmentem</div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Webdev</span>
+                                <span class="tech-tag">FiveM</span>
+                                <span class="tech-tag">CFX</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="year">                                
+                                <span class="icon3"></span>
+                                <span class="icon2"></span>
+                                <span class="icon1"></span>
+                                <span>2023</span>
+                            </div>
+                            <div class="achievement-title">Zacząłem się uczyć JavaScript, PHP & SQL w szkole.</div>
+                            <div class="achievement-description">Zrobiełm Certyfikat na kwalifikację INF.02</div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="year">                                
+                                <span>2022</span>
+                                <span class="icon1"></span>
+                                <span class="icon2"></span>
+                                <span class="icon3"></span>
+                            </div>
+                            <div class="achievement-title">Zacząłem się uczyć HTML, CSS, & Photoshop w szkole.</div>
+                            <div class="achievement-description"></div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Photoshop</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="year">                                
+                                <span class="icon3"></span>
+                                <span class="icon2"></span>
+                                <span class="icon1"></span>
+                                <span>2021</span>
+                            </div>
+                            <div class="achievement-title">W szkole zacząłem uczyć się obsługi serwerowych systemów operacyjnych i jak budować sieci komputerowe.</div>
+                            <div class="achievement-description"></div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Windows Server</span>
+                                <span class="tech-tag">Linux</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="year">
+                                <span>2020</span>
+                                <span class="icon1"></span>
+                                <span class="icon2"></span>
+                                <span class="icon3"></span>
+                            </div>
+                            <div class="achievement-title">Zaczałem naukę w technikum</div>
+                            <div class="achievement-description">Zacząłem uczyć się podstaw obsługi sprzętu komputerowego, tworzenia sieci komputerowych i systemów operacyjnych w szkole.</div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Sprzęt Komputerowy</span>
+                                <span class="tech-tag">Cisco Packet Tracer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="year">
+                                <span class="icon3"></span>
+                                <span class="icon2"></span>
+                                <span class="icon1"></span>
+                                <span>2019</span>
+                            </div>
+                            <div class="achievement-title">Zaczałem interesować się różnymi dziedzinami informatyki.</div>
+                            <div class="achievement-description">Złożyłem wtedy swój pierwszy komputer.</div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Sprzęt Komputerowy</span>
+                                <span class="tech-tag">Programowanie</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- <section id="projects">
+            <h2 class="projects-header">Projekty</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <div class="project-left">
+                            <h3 class="project-title">Skrypt FiveM #1</h3>
+                            <p class="project-desc">Opis skryptu FiveM #1</p>
+                            <a href="" class="project-button">Zobacz Projekt ⭢</a>
+                        </div>
+                        <div class="project-right">
+                            <img src="images/project-image-1.png" alt="Illustrative photo of the project #1" class="project-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <div class="project-left">
+                            <h3 class="project-title">Skrypt FiveM #2</h3>
+                            <p class="project-desc">Opis skryptu FiveM #2</p>
+                            <a href="" class="project-button">Zobacz Projekt ⭢</a>
+                        </div>
+                        <div class="project-right">
+                            <img src="images/project-image-2.png" alt="Illustrative photo of the project #2" class="project-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
         <section id="skills">
-            <h2 class="skills-title">Skills</h2>
+            <h2 class="skills-header">Umiejętności</h2>
             <div class="skills-grid">
                 <div class="skill-card">
                     <img src="images/logo-html5.svg" alt="Logo HTML5" class="skill-logo">
                     <div class="skill-card-box">
                         <h3 class="skill-desc">HTML5</h3>
-                        <p class="skill-desc">Advanced</p>
+                        <p class="skill-desc">Zawansowany</p>
                     </div>
                 </div>
                 <div class="skill-card">
                     <img src="images/logo-css3.svg" alt="Logo CSS3" class="skill-logo">
                     <div class="skill-card-box">
                         <h3 class="skill-desc">CSS3</h3>
-                        <p class="skill-desc">Intermediate</p>
+                        <p class="skill-desc">Średnio Zawansowany</p>
                     </div>
                 </div>
                 <div class="skill-card">
                     <img src="images/logo-js.svg" alt="Logo JavaScript" class="skill-logo">
                     <div class="skill-card-box">
                         <h3 class="skill-desc">JavaScript</h3>
-                        <p class="skill-desc">Intermediate</p>
+                        <p class="skill-desc">Uczę się</p>
                     </div>
                 </div>
                 <div class="skill-card">
                     <img src="images/logo-php.svg" alt="Logo PHP" class="skill-logo">
                     <div class="skill-card-box">
                         <h3 class="skill-desc">PHP</h3>
-                        <p class="skill-desc">Begginer</p>
+                        <p class="skill-desc">Uczę się</p>
                     </div>
                 </div>
                 <div class="skill-card">
                     <img src="images/logo-sql.svg" alt="Logo SQL" class="skill-logo">
                     <div class="skill-card-box">
                         <h3 class="skill-desc">SQL</h3>
-                        <p class="skill-desc">Intermediate</p>
+                        <p class="skill-desc">Średnio Zawansowany</p>
                     </div>
                 </div>
                 <div class="skill-card">
                     <img src="images/logo-lua.svg" alt="Logo Lua" class="skill-logo">
                     <div class="skill-card-box">
                         <h3 class="skill-desc">Lua</h3>
-                        <p class="skill-desc">Begginer</p>
+                        <p class="skill-desc">Uczę się</p>
                     </div>
                 </div>
                 <div class="skill-card">
                     <img src="images/logo-photoshop.svg" alt="Logo Photoshop" class="skill-logo">
                     <div class="skill-card-box">
                         <h3 class="skill-desc">Photoshop</h3>
-                        <p class="skill-desc">Intermediate</p>
+                        <p class="skill-desc">Średnio Zawansowany</p>
                     </div>
                 </div>
             </div>
@@ -113,38 +244,34 @@
         <section id="contact">
             <div class="contact-section">
                 <div class="contact-container">
-                    <h2 class="contact-title">Contact Me</h2>
-                    <p class="contact-desc">Interested in working together? Feel free to reach out!</p>
-                    <p class="contact-desc">Discord Username: notforaiuse</p>
+                    <h2 class="contact-header">Skontaktuj się ze mną</h2>
+                    <p class="contact-desc">Jesteś zainteresowany współpracą? Skontaktuj się ze mną!</p>
+                    <p class="contact-desc">Nazwa Discord: notforaiuse</p>
                     <form class="contact-form" action="send_email.php" method="POST">
                         <input type="text" name="name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
                         <textarea name="message" placeholder="Your Message" required></textarea>
-                        <button type="submit" class="neon-button">Send Message</button>
+                        <button type="submit" class="neon-button">Wyślij Wiadomość</button>
                     </form>
                 </div>
                 <div class="email">
                     <p class="email-text">Email: <a href="mailto:wojslab@gmail.com" class="email-link">wojslab@gmail.com</a></p>
                 </div>
                 <div class="location">
-                    <p class="location-text">Location: Poland, PL</p>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/fallenVIXA" class="social-link-button">GitHub</a>
-                    <a href="" class="social-link-button">Discord Dev</a>
-                    <a href="https://discord.gg/by8exgFqaK" class="social-link-button">Discord Fivem Server</a>
+                    <p class="location-text">Lokalizacja: Polska, PL</p>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <div class="copy">
-            <p>&copy; 2025 fallenVIXA. All rights reserved.</p>
+            <p>&copy; 2025 fallenVIXA. Wszelkie prawa zastrzeżone.</p>
         </div>
         <div class="links">
             <a href="https://github.com/fallenVIXA" class="footer-links">Github</a>
-            <a href="" class="footer-links">Discord Dev</a>
-            <a href="https://discord.gg/by8exgFqaK" class="footer-links">Discord Fivem Server</a>
+            <a href="" class="footer-links">Discord DEV</a>
+            <a href="https://discord.gg/by8exgFqaK" class="footer-links">Discord FiveM Serwer</a>
+            <a href="https://steamcommunity.com/id/fallenvixa" class="footer-links">Steam</a>
         </div>
     </footer>
     <script src="assets/js/script.js" defer></script>
